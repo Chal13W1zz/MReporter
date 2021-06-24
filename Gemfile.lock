@@ -1,14 +1,21 @@
 GEM
+  remote: https://rubygems.org/
   specs:
-    net-protocol (0.1.0)
+    io-wait (0.1.0)
+    net-protocol (0.1.1)
+      io-wait
+      timeout
     net-smtp (0.2.1)
       net-protocol
+    subprocess (1.5.4)
+    timeout (0.1.1)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
   net-smtp
+  subprocess
 
 BUNDLED WITH
    2.2.20

@@ -1,10 +1,10 @@
 require 'net/smtp'
+require 'subprocess'
 
-
-EMAIL = ""
-PASSWORD = ""
+EMAIL = "pwnlogger7@gmail.com"
+PASSWORD = "beeloggerpass1"
 message = <<BODY
-
+Test mail
 BODY
 
 message = " ** MRepporter ** \n" + message
