@@ -1,8 +1,8 @@
 require 'net/smtp'
 require 'subprocess'
 
-EMAIL = "pwnlogger7@gmail.com"
-PASSWORD = "beeloggerpass1"
+EMAIL = ""
+PASSWORD = ""
 message = <<BODY
 Test mail
 BODY
