@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'net/smtp'
 require 'subprocess'
 
